@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;      
+}
+
+
+#general{
+    width: 300px;
+margin: 50px auto;
+}
+
+
+/* start one */
+#one{
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+    filter: drop-shadow(0px 1px 0px rgba(255,255,255,0.25));
+    background-color: black;
+    
+}
+#one h1{
+    font-size: 15px;
+    line-height: 22px;
+    color: #bfbfbf;
+    font-family: "Museo Sans";
+    text-align: center;
+    padding: 17px 0;
+    filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.8));
+}
+
+/* end one */
+/* start two */
+#two{
+    background-color: #383838;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.container{
+    width:240px;
+    margin: auto;
+}
+#two form input::placeholder{
+    font-size: 13px;
+    line-height: 22px;
+    color: #7d7d7d;
+    font-family: "Museo Sans";
+    filter: drop-shadow(0px -1px 0px rgba(0,0,0,0.8));
+
+}
+
+ #two form input:nth-child(2){
+     border-radius: 0 0 5px 5px;
+ }
+
+#two .container a{
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    margin-top: 25px;   
+}
+
+#two button{
+    width: 100%;
+    border-radius: 5px;
+    filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.4));
+    background-color: #319b8e;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Museo Sans";
+    margin-top: 20px;
+    padding:13px 0 ;
+}
+svg{
+    width:  10px;
+    color: #fff;
+}
+
+#two form .input1{
+    border: none;
+    outline: none;
+    width: 240px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 1px 0px rgba(255,255,255,0.1));
+    background-color: #1f1e1e;
+    padding: 15px;
+    color:#fff;
+    display: flex;
+}
+#two form input{
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+.i2{
+ margin-top: 10px;
+}
+form{
+    padding-top:10px;
+}
